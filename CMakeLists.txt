@@ -45,7 +45,7 @@ find_package(eigen_stl_containers REQUIRED)
 find_package(geometry_msgs REQUIRED)
 # Enforce the system package version on Ubuntu jammy and noble which is also used by libfcl-dev
 # The version is fixed to prevent ABI conflicts with ros-octomap
-find_package(octomap 1.9.7...<1.10.0 REQUIRED)
+find_package(octomap REQUIRED)
 find_package(QHULL REQUIRED)
 find_package(random_numbers REQUIRED)
 find_package(rclcpp REQUIRED)
